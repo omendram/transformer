@@ -18,7 +18,7 @@ log = "./logs"
 prefix = "summary"
 data_set_dir = "data"
 
-device = "cuda"
+device = "cpu"
 
 # path routine
 def add_path(pref, f, suf=None):

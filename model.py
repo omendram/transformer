@@ -22,9 +22,7 @@ class Transformers(nn.Module):
 
     def forward(self, source_seq, target_seq):
         batch_size = source_seq.shape[0]
-
-        print(source_seq.shape)
-
+        
         self.transformer.reset_encoder_state()
         output = self.transformer(source_seq, target_seq)
         shifted = torch.cat((self.initial_probs.to(source_seq.device).repeat(batch_size, 1, 1), output[:, :-1, :]),
