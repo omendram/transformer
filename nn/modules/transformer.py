@@ -81,40 +81,6 @@ class TransformerDecoderLayer(nn.Module):
 
 class Transformer(nn.Module):
     def __init__(self, max_seq_len, vocab_size, emb_size=250, embeddings=None, n_layers=6, dim_m=512, dim_q_k=64, dim_v=64, n_heads=8, dim_i=2048, dropout=0.1):
-        """Transformer model from 'Attention Is All You Need' paper.
-
-        Args:
-            max_seq_len (int): Maximum sequence length.
-            vocab_size (int): Vocabulary size.
-            emb_size (int, optional): Embedding size. You do not need to specify a value if you are using
-              embedding weights.
-            embeddings (torch.Tensor, optional): Long tensor of shape `(vocab_size, emb_size)` - embedding tensor.
-              Embedding size value would inherited from shape of this tensor.
-            n_layers (int, optional): Number of transformer layers.
-            dim_m (int, optional): Model hidden size, must be equal with embedding size.
-            dim_q_k (int, optional): Dimension of `query` & `key` attention projections.
-            dim_v (int, optional): Dimension of `value` attention projection.
-            n_heads (int, optional): Number of attention heads.
-            dim_i (int, optional): Inner dimension of feed-forward position-wise sublayer.
-            dropout (float, optional): Dropout probability.
-
-        Variables:
-            - **encoder_state**: a float tensor of shape `(batch, enc_seq_len, dim_m)` containing encoder state from
-              last layer.
-
-        Inputs:
-            - **enc_seq** of shape `(batch, enc_seq_len)`, a long tensor encoder input sequence.
-            - **dec_seq** of shape `(batch, dec_seq_len)`, a long tensor decoder input sequence.
-
-        Outputs:
-            - **output** of of shape `(batch, dec_seq_len, vocab_size)`, a float tensor of vocabulary probability
-              distribution.
-
-        Notes:
-            - For optimizing model, encoder state stores in local variable and calculate only one per batch. After
-              auto-regressive process encoder state must be reset. You can do this using
-              :func:`Transformer.reset_encoder_state`.
-        """
         super(Transformer, self).__init__()
 
         self.positional_encoding = PositionalEmbedding(max_seq_len, dim_m, vocab_size, emb_size, embeddings)
@@ -122,7 +88,7 @@ class Transformer(nn.Module):
             [TransformerEncoderLayer(dim_m, dim_q_k, dim_v, n_heads, dim_i, dropout) for i in range(n_layers)])
         self.decoder_layers = nn.ModuleList(
             [TransformerDecoderLayer(dim_m, dim_q_k, dim_v, n_heads, dim_i, dropout) for i in range(n_layers)])
-        # It's original approach from paper, but i think it's better to use smooth transition from dim_m to vocab_size
+        
         self.out = nn.Linear(dim_m, vocab_size)
         self.softmax = nn.Softmax(-1)
         self.encoder_state = None
@@ -139,13 +105,9 @@ class Transformer(nn.Module):
         # Decoder block.
         # Apply positional encoding.
         dec_state = self.positional_encoding(dec_seq)
-
         mask = self.autoregressive_mask(dec_seq)
 
         for dec_layer in self.decoder_layers:
-            # print(dec_layer.size())
-            # print(self.encoder_state)
-            # print(mask)
             dec_state = dec_layer(dec_state, self.encoder_state, mask)
 
         output = self.out(dec_state)

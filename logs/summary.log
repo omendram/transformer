@@ -1653,3 +1653,6 @@
 2020-01-09 08:29:13,144 : INFO : Dataset has been loaded!
 2020-01-09 08:29:13,144 : INFO : Create model
 2020-01-09 08:29:13,569 : INFO : Start training
+2020-01-09 08:55:32,912 : INFO : Loading dataset
+2020-01-09 08:55:45,282 : INFO : Dataset has been loaded!
+2020-01-09 08:55:45,283 : INFO : Create model
