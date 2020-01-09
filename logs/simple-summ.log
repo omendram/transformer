@@ -1,0 +1,90 @@
+2019-10-22 01:27:30,013 : INFO : Loading dataset
+2019-10-22 01:52:10,972 : INFO : Loading dataset
+2019-10-22 01:52:38,161 : INFO : Loading dataset
+2019-10-22 01:55:48,219 : INFO : Loading dataset
+2019-10-22 01:57:12,738 : INFO : Dataset has been loaded. Total size: {'train': 12999, 'test': 359}
+2019-10-22 02:02:00,071 : INFO : Loading dataset
+2019-10-22 02:03:28,973 : INFO : Dataset has been loaded. Total size: {'train': 12999, 'test': 359}
+2019-10-22 02:03:28,975 : INFO : Create model
+2019-10-22 02:03:29,556 : INFO : Start training
+2019-10-22 02:03:44,788 : INFO : Iteration 0; Loss: 10.084682
+2019-10-22 02:03:58,349 : INFO : Evaluation on 0 iteration; Loss: 9.984185
+2019-10-22 02:07:33,540 : INFO : Iteration 10; Loss: 8.931430
+2019-10-22 02:08:21,903 : INFO : Loading dataset
+2019-10-22 02:09:59,425 : INFO : Dataset has been loaded. Total size: {'train': 12999, 'test': 359}
+2019-10-22 02:09:59,426 : INFO : Create model
+2019-10-22 02:09:59,991 : INFO : Start training
+2019-10-22 02:10:11,725 : INFO : Iteration 0; Loss: 10.129905
+2019-10-22 02:10:37,015 : INFO : Evaluation on 0 iteration; Loss: 10.022602
+2019-10-22 02:12:34,217 : INFO : Loading dataset
+2019-10-22 02:14:09,470 : INFO : Dataset has been loaded. Total size: {'train': 12999, 'test': 359}
+2019-10-22 02:14:09,472 : INFO : Create model
+2019-10-22 02:14:10,044 : INFO : Start training
+2019-10-22 02:14:23,006 : INFO : Iteration 0; Loss: 10.197732
+2019-10-22 02:14:39,159 : INFO : Evaluation on 0 iteration; Loss: 10.066298
+2019-10-22 02:17:59,910 : INFO : Iteration 10; Loss: 9.044671
+2019-10-22 02:20:24,819 : INFO : Loading dataset
+2019-10-22 02:22:04,414 : INFO : Dataset has been loaded. Total size: {'train': 12999, 'test': 359}
+2019-10-22 02:22:04,415 : INFO : Create model
+2019-10-22 02:22:05,014 : INFO : Start training
+2019-10-22 02:22:24,750 : INFO : Iteration 0; Loss: 10.152367
+2019-10-22 02:22:41,685 : INFO : Evaluation on 0 iteration; Loss: 10.156194
+2019-10-22 02:27:14,675 : INFO : Iteration 10; Loss: 8.822812
+2019-10-22 02:36:19,765 : INFO : Iteration 20; Loss: 8.393470
+2019-10-22 02:39:14,350 : INFO : Iteration 30; Loss: 7.780962
+2019-10-22 02:41:51,842 : INFO : Iteration 40; Loss: 7.555408
+2019-10-22 02:44:47,614 : INFO : Iteration 50; Loss: 7.379548
+2019-10-22 02:49:57,256 : INFO : Iteration 60; Loss: 6.935538
+2019-10-22 02:53:01,171 : INFO : Iteration 70; Loss: 7.042341
+2019-10-22 02:57:09,276 : INFO : Iteration 80; Loss: 6.779909
+2019-10-22 02:59:57,257 : INFO : Iteration 90; Loss: 6.415016
+2019-10-22 03:02:31,199 : INFO : Model has been saved
+2019-10-22 03:04:51,551 : INFO : Loading dataset
+2019-10-22 03:06:31,610 : INFO : Dataset has been loaded. Total size: {'train': 12999, 'test': 359}
+2019-10-22 03:06:31,611 : INFO : Create model
+2019-10-22 03:06:32,179 : INFO : Start training
+2019-10-22 03:07:11,725 : INFO : Iteration 0; Loss: 10.154665
+2019-10-22 03:07:27,793 : INFO : Evaluation on 0 iteration; Loss: 10.034896
+2019-10-22 03:10:03,216 : INFO : Iteration 10; Loss: 8.976476
+2019-10-22 03:12:51,989 : INFO : Iteration 20; Loss: 8.343927
+2019-10-22 03:16:03,710 : INFO : Iteration 30; Loss: 7.697922
+2019-10-22 03:18:56,931 : INFO : Iteration 40; Loss: 7.408293
+2019-10-22 03:22:19,978 : INFO : Iteration 50; Loss: 7.555283
+2019-10-22 03:26:04,120 : INFO : Iteration 60; Loss: 7.334165
+2019-10-22 03:28:48,120 : INFO : Iteration 70; Loss: 7.183273
+2019-10-22 03:32:23,093 : INFO : Iteration 80; Loss: 6.739739
+2019-10-22 03:35:26,187 : INFO : Iteration 90; Loss: 6.864434
+2019-10-22 03:38:03,503 : INFO : Iteration 100; Loss: 6.544419
+2019-10-22 03:38:28,360 : INFO : Evaluation on 100 iteration; Loss: 7.129610
+2019-10-22 03:40:52,422 : INFO : Iteration 110; Loss: 6.509725
+2019-10-22 03:43:55,026 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 15207680000 bytes. Buy new RAM!
+
+2019-10-22 03:44:25,265 : INFO : Iteration 120; Loss: 6.515288
+2019-10-22 03:47:25,835 : INFO : Iteration 130; Loss: 6.088600
+2019-10-22 03:50:06,286 : INFO : Iteration 140; Loss: 6.590944
+2019-10-22 03:52:27,441 : INFO : Iteration 150; Loss: 6.321736
+2019-10-22 03:55:54,999 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 10989920768 bytes. Buy new RAM!
+
+2019-10-22 03:58:35,977 : INFO : Iteration 170; Loss: 6.393911
+2019-10-22 04:02:55,301 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 6318678528 bytes. Buy new RAM!
+
+2019-10-22 04:03:45,217 : INFO : Iteration 180; Loss: 6.871576
+2019-10-22 04:06:51,804 : INFO : Iteration 190; Loss: 6.101735
+2019-10-22 04:09:16,823 : INFO : Iteration 200; Loss: 6.396475
+2019-10-22 04:09:31,971 : INFO : Evaluation on 200 iteration; Loss: 7.034738
+2019-10-22 04:12:22,162 : INFO : Iteration 210; Loss: 5.957899
+2019-10-22 04:15:19,759 : INFO : Iteration 220; Loss: 6.260117
+2019-10-22 04:18:00,655 : INFO : Iteration 230; Loss: 6.104748
+2019-10-22 04:20:17,620 : INFO : Iteration 240; Loss: 6.332019
+2019-10-22 04:22:45,839 : INFO : Iteration 250; Loss: 6.532018
+2019-10-22 04:27:09,358 : INFO : Iteration 260; Loss: 6.123817
+2019-10-22 04:30:42,427 : INFO : Iteration 270; Loss: 6.516438
+2019-10-22 04:33:07,932 : INFO : Iteration 280; Loss: 6.285263
+2019-10-22 04:37:59,437 : INFO : Iteration 290; Loss: 6.055515
+2019-10-22 04:40:11,975 : INFO : Model has been saved
+2019-10-22 16:52:36,109 : INFO : Loading dataset
+2019-10-22 16:54:14,196 : INFO : Dataset has been loaded. Total size: {'train': 12999, 'test': 359}
+2019-10-22 16:54:14,200 : INFO : Create model
+2019-10-22 16:54:14,663 : INFO : Start training
+2019-10-22 16:54:31,325 : INFO : Iteration 0; Loss: 10.155789
+2019-10-22 16:54:41,071 : INFO : Evaluation on 0 iteration; Loss: 10.059889

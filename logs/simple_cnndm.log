@@ -1,0 +1,160 @@
+2019-10-22 18:45:04,621 : INFO : Loading dataset
+2019-10-22 18:46:11,118 : INFO : Loading dataset
+2019-10-22 18:46:30,825 : INFO : Loading dataset
+2019-10-22 18:47:11,980 : INFO : Loading dataset
+2019-10-22 18:47:17,592 : INFO : Dataset has been loaded. Total size: {'train': 1, 'test': 1}
+2019-10-22 18:47:17,593 : INFO : Create model
+2019-10-22 18:47:18,101 : INFO : Start training
+2019-10-22 18:47:50,032 : INFO : Model has been saved
+2019-10-23 01:18:46,681 : INFO : Loading dataset
+2019-10-23 01:18:51,822 : INFO : Dataset has been loaded. Total size: {'train': 1, 'test': 1}
+2019-10-23 01:18:51,838 : INFO : Create model
+2019-10-23 01:18:52,337 : INFO : Start training
+2019-10-23 01:19:23,974 : INFO : Model has been saved
+2019-10-23 01:44:05,852 : INFO : Loading dataset
+2019-10-23 01:44:28,234 : INFO : Loading dataset
+2019-10-23 02:10:46,861 : INFO : Loading dataset
+2019-10-23 02:38:30,979 : INFO : Dataset has been loaded. Total size: {'train': 287227, 'test': 11490}
+2019-10-23 02:38:31,026 : INFO : Create model
+2019-10-23 02:38:31,853 : INFO : Start training
+2019-10-23 02:39:40,863 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 251573760 bytes. Buy new RAM!
+
+2019-10-23 02:40:33,013 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 212968448 bytes. Buy new RAM!
+
+2019-10-23 02:41:49,769 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 101154816 bytes. Buy new RAM!
+
+2019-10-23 02:44:39,124 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2491615232 bytes. Buy new RAM!
+
+2019-10-23 02:45:50,563 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 99287040 bytes. Buy new RAM!
+
+2019-10-23 02:47:35,249 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 6225920 bytes. Buy new RAM!
+
+2019-10-23 02:49:29,257 : INFO : Iteration 10; Loss: 9.797215
+2019-10-23 02:52:33,818 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 520704000 bytes. Buy new RAM!
+
+2019-10-23 02:53:19,172 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 497664000 bytes. Buy new RAM!
+
+2019-10-23 02:54:40,264 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 736886784 bytes. Buy new RAM!
+
+2019-10-23 02:56:40,441 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 474624000 bytes. Buy new RAM!
+
+2019-10-23 02:58:31,076 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 472320000 bytes. Buy new RAM!
+
+2019-10-23 02:59:18,099 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 716701696 bytes. Buy new RAM!
+
+2019-10-23 03:02:18,457 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 32256512 bytes. Buy new RAM!
+
+2019-10-23 03:03:20,044 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 296092160 bytes. Buy new RAM!
+
+2019-10-23 03:04:09,409 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 430848000 bytes. Buy new RAM!
+
+2019-10-23 03:05:19,980 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2645262848 bytes. Buy new RAM!
+
+2019-10-23 03:07:03,474 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 412416000 bytes. Buy new RAM!
+
+2019-10-23 03:07:49,169 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 481536000 bytes. Buy new RAM!
+
+2019-10-23 03:08:38,729 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 336384000 bytes. Buy new RAM!
+
+2019-10-23 03:10:32,148 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 592128000 bytes. Buy new RAM!
+
+2019-10-23 03:14:31,485 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 753926144 bytes. Buy new RAM!
+
+2019-10-23 03:15:53,183 : INFO : Iteration 40; Loss: 7.348696
+2019-10-23 03:17:43,559 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 422114304 bytes. Buy new RAM!
+
+2019-10-23 03:22:04,591 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 240779264 bytes. Buy new RAM!
+
+2019-10-23 03:22:53,598 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2589696512 bytes. Buy new RAM!
+
+2019-10-23 03:24:20,412 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2820305408 bytes. Buy new RAM!
+
+2019-10-23 03:25:35,508 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 98729984 bytes. Buy new RAM!
+
+2019-10-23 03:26:02,301 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 7323404288 bytes. Buy new RAM!
+
+2019-10-23 03:28:30,467 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 732430336 bytes. Buy new RAM!
+
+2019-10-23 03:29:50,728 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 4841280000 bytes. Buy new RAM!
+
+2019-10-23 03:30:48,122 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 331776000 bytes. Buy new RAM!
+
+2019-10-23 03:34:07,318 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 615168000 bytes. Buy new RAM!
+
+2019-10-23 03:34:22,921 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 4961673728 bytes. Buy new RAM!
+
+2019-10-23 03:35:18,263 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 380160000 bytes. Buy new RAM!
+
+2019-10-23 03:36:17,608 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 87883776 bytes. Buy new RAM!
+
+2019-10-23 03:37:10,696 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 483997696 bytes. Buy new RAM!
+
+2019-10-23 03:38:22,733 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 96796672 bytes. Buy new RAM!
+
+2019-10-23 03:39:25,520 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2684979200 bytes. Buy new RAM!
+
+2019-10-23 03:40:13,243 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 488448000 bytes. Buy new RAM!
+
+2019-10-23 03:40:26,029 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 5025632768 bytes. Buy new RAM!
+
+2019-10-23 03:41:30,992 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 730333184 bytes. Buy new RAM!
+
+2019-10-23 03:42:31,279 : INFO : Iteration 70; Loss: 6.810824
+2019-10-23 03:43:29,355 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 193113600 bytes. Buy new RAM!
+
+2019-10-23 03:44:49,374 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 96763904 bytes. Buy new RAM!
+
+2019-10-23 03:45:57,825 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2536998912 bytes. Buy new RAM!
+
+2019-10-23 03:46:53,726 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 708575232 bytes. Buy new RAM!
+
+2019-10-23 03:47:48,684 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 423936000 bytes. Buy new RAM!
+
+2019-10-23 03:48:53,495 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2779596800 bytes. Buy new RAM!
+
+2019-10-23 03:49:51,507 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 6258688 bytes. Buy new RAM!
+
+2019-10-23 03:50:51,066 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2680291328 bytes. Buy new RAM!
+
+2019-10-23 03:52:52,081 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 513792000 bytes. Buy new RAM!
+
+2019-10-23 03:54:04,255 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 744226816 bytes. Buy new RAM!
+
+2019-10-23 03:55:52,082 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 5849292800 bytes. Buy new RAM!
+
+2019-10-23 03:57:07,369 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 87326720 bytes. Buy new RAM!
+
+2019-10-23 03:57:58,604 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 605952000 bytes. Buy new RAM!
+
+2019-10-23 03:59:08,172 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 10616832 bytes. Buy new RAM!
+
+2019-10-23 04:00:01,194 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 350208000 bytes. Buy new RAM!
+
+2019-10-23 04:02:26,094 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 86999040 bytes. Buy new RAM!
+
+2019-10-23 04:04:51,129 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 97615872 bytes. Buy new RAM!
+
+2019-10-23 04:05:42,202 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 485841408 bytes. Buy new RAM!
+
+2019-10-23 04:07:47,508 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 706215936 bytes. Buy new RAM!
+
+2019-10-23 04:09:28,052 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2536998912 bytes. Buy new RAM!
+
+2019-10-23 04:10:25,104 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2779596800 bytes. Buy new RAM!
+
+2019-10-23 04:10:58,182 : INFO : Model has been saved
+2019-10-23 12:54:00,590 : INFO : Loading dataset
+2019-11-11 14:23:50,295 : INFO : Loading dataset
+2019-11-11 14:29:44,982 : INFO : Loading dataset
+2019-11-11 14:30:09,582 : INFO : Loading dataset
+2019-11-11 14:35:21,533 : INFO : Loading dataset
+2019-11-11 14:35:50,625 : INFO : Loading dataset
+2019-11-11 14:37:45,642 : INFO : Loading dataset
+2019-11-11 14:38:13,106 : INFO : Loading dataset
+2019-11-11 14:41:26,685 : INFO : Loading dataset
+2019-11-11 14:42:50,156 : INFO : Dataset has been loaded. Total size: {'train': 12999, 'test': 359}
+2019-11-11 14:42:50,156 : INFO : Create model
+2019-11-11 14:42:50,903 : INFO : Start training
+2019-11-11 14:44:10,236 : ERROR : [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator: not enough memory: you tried to allocate 1113920000 bytes. Buy new RAM!
+
+2019-11-11 14:44:41,248 : INFO : Model has been saved
